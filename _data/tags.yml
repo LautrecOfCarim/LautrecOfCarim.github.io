@@ -1,0 +1,12 @@
+---
+compiler: Compiler
+directx12: DirectX 12
+directx: DirectX
+game: game
+graphics: Graphics
+hlsl: hlsl
+links: Links
+math: Math
+shader: shader
+shaders: Shaders
+

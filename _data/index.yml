@@ -1,0 +1,31 @@
+- name: User
+  text: My name is **Alexander Radkov**
+  note: aka AReX
+  icon: person
+  attr: person by Gregor Cresnar from the Noun Project
+
+- name: Work
+  text: I'm a <a href="/about/">Software Developer</a>
+  note: Graphics Engineer during daytime and Game Programmer at night
+  icon: cpp
+  attr: Save C++ by Liliane Lass Erbe from the Noun Project
+
+- name: Work
+  text: I'm currently working at <a href="https://www.siliconstudio.co.jp/en/">Silicon Studio</a>
+  note: on some secret projects
+  icon: game
+  attr: Game by Adrien Coquet from the Noun Project
+
+- name: Music
+  text: I listen to Metal
+  note: I'd love to chat about it
+  icon: metal
+  attr: Rock n Roll by Vicente Sledz from the Noun Project
+
+- name: Life
+  text: I live in Japan.
+  note: ever since 2006 and counting.
+  icon: japan
+  attr: maneki by Sixth planet from the Noun Project
+
+

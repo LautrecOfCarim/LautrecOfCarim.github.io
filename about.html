@@ -1,0 +1,27 @@
+---
+layout: page
+title: About AReX
+permalink: /about/
+---
+
+<div class="home">
+
+<p class="whisper-note">This page tells you a little bit about me.</p>
+
+{% if site.logo %}
+<img width="128px" src="{{ site.baseurl }}/{{ site.logo }}" style="float: right;border-radius: 50%" alt="Avatar">
+{% endif %}
+
+{% if site.github_repo_url %}
+<p class="view">View My <a href="{{ site.github_repo_url }}">GitHub Profile</a></p>
+{% endif %}
+
+   <ul class="fa-ul">
+
+      <li>
+        Who am I?
+        <p class="whisper-note">One beautiful day I might write more about myself.</p>
+      </li>
+
+   </ul>
+</div>

@@ -1,0 +1,31 @@
+<!-- Static navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <!-- Icon link -->
+    <a class="alexr-logo navbar-brand" href="/"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Left aligned links -->
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+    {% for item in site.data.navigation %}
+    {% if item.align != "right" %}
+        <li class='nav-item{% if page.url == item.link %} active{% endif %}'><a class="nav-link" href="{{ item.link | prepend: site.baseurl }}" >{{ item.name }}</a></li>
+    {% endif %}
+    {% endfor %}    
+      </ul>
+
+    <!-- Right aligned links -->
+      <ul class="navbar-nav navbar-right">
+    {% for item in site.data.navigation %}
+    {% if item.align == "right" %}
+        <li class='nav-item{% if page.url == item.link %} active{% endif %}'><a class="nav-link" href="{{ item.link | prepend: site.baseurl }}" >{{ item.name }}</a></li>
+    {% endif %}
+    {% endfor %}    
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+ 
+</nav>

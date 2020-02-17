@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog/
+  align: left
+- name: About
+  link: /about/
+  align: "right"
