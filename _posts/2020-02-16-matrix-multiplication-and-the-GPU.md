@@ -18,8 +18,6 @@ When mapping matrix data to the GPU there are 3 points of control where you can 
 <!--more-->
 
 
-
-
 ## How is the matrix laid out in memory
 
 First let's look at how matrices are laid out in memory. A matrix is a rectangular array of numbers, arranged in *rows* and *columns*. For example a matrix with *m rows* and *n columns* is read as a *m by n matrix* and is denoted as **A <sub>mn</sub>**. A single element **a<sub>ij</sub>** represents the number on the **i<sup>th</sup> row** and **j<sup>th</sup> column** in the matrix.
