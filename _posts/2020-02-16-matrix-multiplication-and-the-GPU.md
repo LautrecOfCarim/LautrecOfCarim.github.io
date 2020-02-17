@@ -2,7 +2,7 @@
 layout: post
 author: AlexR
 title:  "Matrix multiplication and the GPU"
-ghcommentid: 1
+ghcommentid: 2
 date:   2020-02-16 15:00:00 +0900
 tags:
  - Graphics
