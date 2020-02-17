@@ -141,7 +141,7 @@ Finally, in the next chapter I'll discuss how you can verify the math using a si
 
 
 ## Data captures
-I forked DirectX 12's Graphics Samples and used the ModelViewer as a base to illustrate the matrix math. You can find the repository [here]([https://github.com/LautrecOfCarim/RenderingExamples](https://github.com/LautrecOfCarim/RenderingExamples)). Most of the major changes are at `716cb610ea1eac69af5764c4b301ba694e6ba80f`
+I forked DirectX 12's Graphics Samples and used the ModelViewer as a base to illustrate the matrix math. You can find the repository [here](https://github.com/LautrecOfCarim/RenderingExamples). Most of the major changes are at `716cb610ea1eac69af5764c4b301ba694e6ba80f`
 
 If you run the code you'll see `#define MATRIX_MATH_RRR` in the `ModelViewer.cpp`. There are a total of 8 defines for the each possible 8 combinations (see the cheat sheet). The first letter (R or C) indicates if the matrix is laid out in Row major or Column major in the memory. I haven't modified the underlying math library, so this change is only captured when mapping the data to the GPU - a column major matrix is manually swizzled when mapped. The second letter indicates how the matrix is stored and copied to the GPU, which is represented by the `row_major` or `column_major` storage qualifier in the constant buffer. The third letter indicates if the multiplication order treats the matrix and vector as row major (using `mul(a, M)`) or column major (using `mul(M, a)`). Using these eight combinations we can run the application and capture the GPU frame to analyze it.
 
