@@ -6,7 +6,7 @@ title: Alex.R's blog
 logo: "assets/images/alex_2018.jpg"
 email: Alexander.Radkov@siliconstudio.co.jp
 description: >- # this means to ignore newlines until "baseurl:"
-  Just a quiet palce to offload my thoughts.
+  Just a quiet place to offload my thoughts.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://LautrecOfCarim.github.io" # the base hostname & protocol for your site
 encoding: UTF-8
