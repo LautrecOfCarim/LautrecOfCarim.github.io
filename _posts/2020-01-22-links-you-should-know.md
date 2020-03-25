@@ -45,6 +45,12 @@ A couple of links everybody working with real-time computer graphics should know
 
 [VSCode](https://github.com/Microsoft/vscode)
 
+## Lighting and Photography
+
+[Cheat sheet: Pro portrait lighting setups](https://www.digitalcameraworld.com/tutorials/cheat-sheet-pro-portrait-lighting-setups)
+![](https://cdn.mos.cms.futurecdn.net/FsTYC6GARZyGWq4i8Ge2rS-650-80.jpg | width=100)
+
+
 ## Math
 
 [Float Exposed](https://float.exposed/)
