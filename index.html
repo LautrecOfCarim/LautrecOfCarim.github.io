@@ -3,12 +3,14 @@ layout: page
 title: "Welcome to my blog!"
 ---
 
+
 <div class="home">
 <p class="whisper-note">{{ site.description | default: site.github.project_tagline }}</p>
 
 <img width="256px" src="{{ site.baseurl }}/{{ site.logo }}" style="float: right;border-radius: 50%" alt="Avatar">
 
 <ul class="fa-ul">
+
 {% for item in site.data.index %}
 <li>
     <img width="48px" src="{{ site.baseurl }}/assets/images/icons/{{ item.icon }}.png" caption="{{ item.attr }}" style="float: left" alt="Avatar">        
@@ -16,6 +18,7 @@ title: "Welcome to my blog!"
     <p class="whisper-note" style="margin-top: -20px">{{ item.note }}</p>                
 </li>
 {% endfor %}
+
 </ul>
 
 </div>
