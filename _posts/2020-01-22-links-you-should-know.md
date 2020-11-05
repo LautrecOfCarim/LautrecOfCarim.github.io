@@ -55,6 +55,9 @@ A couple of links everybody working with real-time computer graphics should know
 
 [Float Exposed](https://float.exposed/)
 
+## Tools
+
+[The Computational Geometry Algorithms Library](https://www.cgal.org/)
 
 ## Programming
 
