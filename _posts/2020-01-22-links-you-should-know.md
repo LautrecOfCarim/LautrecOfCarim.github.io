@@ -37,6 +37,8 @@ A couple of links everybody working with real-time computer graphics should know
 
 [Nvidia GameWorks' Falcor](https://github.com/nvidiagameworks/falcor)
 
+[Cauldron](https://github.com/GPUOpen-LibrariesAndSDKs/Cauldron)
+
 [ShaderToy](https://www.shadertoy.com/)
 
 ## Editors
