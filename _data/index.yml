@@ -1,6 +1,6 @@
 - name: User
   text: My name is **Alexander Radkov**
-  note: aka AReX
+  note: aka AleX.R
   icon: person
   attr: person by Gregor Cresnar from the Noun Project
 
@@ -11,7 +11,7 @@
   attr: Save C++ by Liliane Lass Erbe from the Noun Project
 
 - name: Work
-  text: I'm currently working at <a href="https://www.siliconstudio.co.jp/en/">Silicon Studio</a>
+  text: I'm currently working at <a href="https://www.nvidia.com/">NVIDIA</a>
   note: on some secret projects
   icon: game
   attr: Game by Adrien Coquet from the Noun Project
