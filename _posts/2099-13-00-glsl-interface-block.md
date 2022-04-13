@@ -11,4 +11,6 @@ excerpt_separator: <!--more-->
 comments: true
 ---
 
+[Interface Block (GLSL)](https://www.khronos.org/opengl/wiki/Interface_Block_(GLSL))
+
 Content placeholder
