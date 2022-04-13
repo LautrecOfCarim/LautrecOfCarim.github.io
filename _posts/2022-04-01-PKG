@@ -1,0 +1,15 @@
+---
+layout: post
+author: AlexR
+title:  "Personal Knowledge Graph"
+ghcommentid: 10002
+date:   2022-04-01 00:00:00 +0900
+tags:
+ - Links
+excerpt_separator: <!--more-->
+comments: true
+---
+
+Content placeholder
+
+[Link to a post]({{ site.baseurl }}{% link _posts/2099-13-00-glsl-interface-block.md %})
