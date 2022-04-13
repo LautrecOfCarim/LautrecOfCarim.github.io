@@ -3,7 +3,7 @@ layout: post
 author: AlexR
 title:  "Interface Block (GLSL)"
 ghcommentid: 10001
-date:   2099-13-00 24:00:00 +0900
+date:   2001-01-01 00:00:00 +0900
 tags:
  - Programming
  - Shading Languages
